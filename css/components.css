@@ -1,0 +1,47 @@
+/* Buttons */
+button.button {
+	background: none;
+	outline: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+a.button, button.button {
+	display: inline-block;
+	width: auto;
+	color: #FAFAFA;
+	margin: 0px 5px 0px 0px;
+}
+a.button span.btnLft,
+a.button span.btnRgt,
+a.button span.btnFll,
+button.button span.btnLft,
+button.button span.btnRgt,
+button.button span.btnFll {
+	background-repeat: no-repeat;
+	display: inline-block;
+	float: left;
+	height: 30px;
+	width: 7px;
+}
+a.button span.btnLft, button.button span.btnLft {
+	background-image: url("../img/btn1_left.png");
+}
+a.button span.btnRgt, button.button span.btnRgt {
+	background-image: url("../img/btn1_right.png");
+}
+a.button span.btnFll, button.button span.btnFll {
+	background-image: url("../img/btn1_fill.png");
+	background-repeat: repeat-x;
+	width: auto;
+	line-height: 30px;
+	text-align: center;
+}
+
+/* Images */
+img.icon {
+	vertical-align: middle;
+	width: 20px;
+	outline: 0;
+	border: 0;
+}

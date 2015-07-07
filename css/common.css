@@ -1,0 +1,15 @@
+body {
+	font-family: Helmet, Freesans, sans-serif;
+	font-size: 12px;
+	line-height: 1.4;
+	background-color: #fafafa;
+	color: #5a5b5d;
+	padding: 5em;
+	margin: 0;
+	vertical-align: baseline;
+}
+
+#info {
+	border: 1px solid #5A5B5D;
+	color: #57A957;
+}
